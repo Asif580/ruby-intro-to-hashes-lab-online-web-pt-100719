@@ -8,7 +8,13 @@ end
 
 def monopoly
 	monopoly = {
+<<<<<<< HEAD
 	  :railroads => {}
+=======
+	  :railroads => {
+	    :pieces => {}
+	  }
+>>>>>>> d192f6cea9d137f58f8a03b15e7824353061553e
 	}
 
 end
@@ -16,9 +22,13 @@ end
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly = {
+<<<<<<< HEAD
 	  :railroads => {
 	    :pieces => 4
 	  }
+=======
+	  :railroads => {}
+>>>>>>> d192f6cea9d137f58f8a03b15e7824353061553e
 	}
 end
 
